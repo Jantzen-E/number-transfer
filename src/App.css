@@ -2,6 +2,18 @@
   text-align: center;
 }
 
+.lists {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  text-align: center;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +47,45 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.listContainer {
+  border: 1px solid black;
+  height: 100%;
+  width: 60%;
+  /* padding-left: 10%;
+  padding-right: 10%; */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 2%;
+  margin-bottom: 0;
+}
+
+select {
+  margin-top: 1%;
+  width: 10%;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+button {
+  margin: 8px;
+  cursor: pointer;
+}
+
+.active {
+  font-weight: 900;
+}
+
+h3 {
+  cursor: pointer;
+}
+
+.form {
+  margin-bottom: 3%;
 }
