@@ -6,7 +6,7 @@ import OhioNumberList from './ohioComponents.js/OhioNumberList';
 export default function App() {
   return (
     <div className="App">
-      <h1>Number Transfers</h1>
+      <h1>Number Transfer</h1>
       <div className="lists">
         <NumberList />
         <OhioNumberList />
